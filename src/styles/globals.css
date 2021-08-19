@@ -46,13 +46,13 @@
 
 .theme-dark {
     --color-onPrimaryBg: var(--color-primary-100);
-    --color-onPrimaryBgSoft: var(--color-primary-300);
-    --color-onPrimaryBgSofter: var(--color-primary-400);
-    --color-primaryBold: var(--color-primary-600);
-    --color-primary: var(--color-primary-800);
-    --color-primarySoft: var(--color-primary-900);
-    --color-primaryBgSofter: var(--color-primary-900);
-    --color-primaryBgSoft: var(--color-primary-900);
+    --color-onPrimaryBgSoft: var(--color-primary-200);
+    --color-onPrimaryBgSofter: var(--color-primary-300);
+    --color-primaryBold: var(--color-primary-400);
+    --color-primary: var(--color-primary-500);
+    --color-primarySoft: var(--color-primary-600);
+    --color-primaryBgSofter: var(--color-primary-700);
+    --color-primaryBgSoft: var(--color-primary-800);
     --color-primaryBg: var(--color-primary-900);
 
     --color-neutralBg: var(--color-neutral-900);

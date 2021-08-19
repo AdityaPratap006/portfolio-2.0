@@ -18,17 +18,18 @@ export const ThemeSwitch = (_props: Props) => {
                 onClick={toggleMode}
             >
                 <div
-                    className={`bg-neutralBg w-4 h-4 sm:w-6 sm:h-6 rounded-full shadow-md transform ${
+                    className={`w-4 h-4 sm:w-6 sm:h-6 rounded-full shadow-md transform ${
                         isDarkMode && "translate-x-4"
-                    } duration-300 ease-in-out`}
-                />
-            </div>
-            <div className="flex justify-center items-center">
-                {isDarkMode ? (
-                    <MoonIcon className="h-6 sm:h-8 text-onNeutralBg" />
-                ) : (
-                    <SunIcon className="h-7 sm:h-9 text-yellow-500" />
-                )}
+                    } duration-300 ease-in-out flex justify-center items-center`}
+                >
+                    <div className="flex justify-center items-center">
+                        {isDarkMode ? (
+                            <MoonIcon className="h-6 sm:h-8 text-onNeutralBg" />
+                        ) : (
+                            <SunIcon className="h-7 sm:h-9 text-yellow-500" />
+                        )}
+                    </div>
+                </div>
             </div>
         </div>
     );

@@ -20,8 +20,8 @@ export const Appbar = (_props: Props) => {
             flex  justify-start items-center 
             pl-4 pr-4"
         >
-            <h4 className=" text-primaryBold text-xl sm:text-3xl p-0 m-0 capitalize">
-                {activeRoute?.title || "🥺 Not Found 🥺"}
+            <h4 className=" text-primaryBold font-extrabold text-xl sm:text-3xl p-0 m-0 capitalize">
+                {activeRoute?.title || "Not Found"}
             </h4>
             <div className="ml-auto">
                 <ThemeSwitch />

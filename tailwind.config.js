@@ -18,6 +18,17 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
+            height: {
+                128: "32rem",
+                144: "36rem",
+            },
+            width: {
+                128: "32rem",
+                144: "36rem",
+            },
+            borderWidth: {
+                "1/2": "0.5px",
+            },
             colors: {
                 primary: getColorWithOpacity("--color-primary"),
                 primarySoft: getColorWithOpacity("--color-primarySoft"),

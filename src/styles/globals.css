@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
 :root {
     --color-primary-100: 235, 231, 254;
     --color-primary-200: 221, 214, 254;
@@ -18,6 +20,10 @@
     --color-neutral-700: 55, 65, 81;
     --color-neutral-800: 31, 41, 55;
     --color-neutral-900: 17, 24, 39;
+}
+
+body {
+    font-family: "Nunito", sans-serif !important;
 }
 
 @tailwind base;

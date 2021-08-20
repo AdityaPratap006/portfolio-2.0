@@ -10,7 +10,7 @@ export const Appbar = (_props: Props) => {
             w-full h-14 
             z-40 bg-neutralBg
             border-b border-onNeutralBg 
-            bg-opacity-60 backdrop-filter backdrop-blur-xl 
+            bg-opacity-40 backdrop-filter backdrop-blur-xl 
             flex  justify-start items-center 
             pl-4 pr-4"
         >

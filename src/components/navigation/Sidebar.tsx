@@ -43,7 +43,7 @@ export const Sidebar = (_props: Props) => {
             className="fixed 
             left-0 bottom-0 
             w-screen h-16 z-50 border-r border-gray-500 sm:top-0 
-            sm:h-screen sm:w-20 lg:w-60  bg-neutralBg bg-opacity-60 
+            sm:h-screen sm:w-20 lg:w-60  bg-neutralBg bg-opacity-20 
             backdrop-filter backdrop-blur-lg flex sm:flex-col"
         >
             <ul className="w-full flex sm:flex-col justify-around jsm:ustify-start items-center gap-3 sm:gap-8 sm:pt-40">

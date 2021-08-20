@@ -89,3 +89,9 @@
         width: calc(100vw - theme("spacing.20"));
     }
 }
+
+@media (min-width: 1024px) {
+    .content-container {
+        width: calc(100vw - theme("spacing.60"));
+    }
+}

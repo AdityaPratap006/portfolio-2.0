@@ -17,7 +17,7 @@ export const AppLayout: FC<Props> = ({ children }) => {
         >
             <div className="w-screen min-h-screen flex flex-col justify-start items-center">
                 <Sidebar />
-                <main className=" relative content-container w-screen min-h-screen flex flex-col justify-start items-center sm:ml-20 lg:w-5/6 md:ml-auto">
+                <main className=" relative content-container w-screen min-h-screen flex flex-col justify-start items-center sm:ml-20 lg:ml-60 pb-16 sm:pb-0">
                     <Appbar />
                     {children}
                 </main>

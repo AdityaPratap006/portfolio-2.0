@@ -1,4 +1,5 @@
 import NextLink, { LinkProps } from "next/link";
+import { useRouter } from "next/router";
 import { ComponentProps } from "react";
 
 interface Props extends LinkProps {
@@ -7,6 +8,10 @@ interface Props extends LinkProps {
 }
 
 export const MenuLink = ({ href, name, icon: Icon }: Props) => {
+    const router = useRouter();
+
+    const isActive = router.asPath === href;
+
     return (
         <NextLink href={href}>
             <div className="group cursor-pointer sm:w-full flex justify-start items-center sm:pl-2 lg:pl-4">
@@ -17,9 +22,21 @@ export const MenuLink = ({ href, name, icon: Icon }: Props) => {
                     "
                 >
                     <span>
-                        <Icon className="h-8 text-onNeutralBg group-hover:animate-bounce" />
+                        <Icon
+                            className={`h-8 ${
+                                isActive
+                                    ? "text-primaryBold"
+                                    : "text-onNeutralBg"
+                            } group-hover:animate-bounce`}
+                        />
                     </span>
-                    <span className="text-onNeutralBg text-2xl font-light capitalize hidden lg:flex">
+                    <span
+                        className={`${
+                            isActive
+                                ? "text-primaryBold font-extrabold"
+                                : "text-onNeutralBg font-light"
+                        } text-2xl capitalize hidden lg:flex`}
+                    >
                         {name}
                     </span>
                 </div>

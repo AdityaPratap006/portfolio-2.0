@@ -1,8 +1,14 @@
+import { useRouter } from "next/router";
+import { navRoutes } from "../../utils/navRoutes";
 import { ThemeSwitch } from "./ThemeSwitch";
 
 interface Props {}
 
 export const Appbar = (_props: Props) => {
+    const router = useRouter();
+
+    const activeRoute = navRoutes.find(({ href }) => href === router.asPath);
+
     return (
         <nav
             className="sticky top-0 
@@ -14,7 +20,9 @@ export const Appbar = (_props: Props) => {
             flex  justify-start items-center 
             pl-4 pr-4"
         >
-            <h4 className=" text-primaryBold text-3xl p-0 m-0">Aditya</h4>
+            <h4 className=" text-primaryBold text-xl sm:text-3xl p-0 m-0 capitalize">
+                {activeRoute?.title || "🥺 Not Found 🥺"}
+            </h4>
             <div className="ml-auto">
                 <ThemeSwitch />
             </div>

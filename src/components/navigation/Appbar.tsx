@@ -13,14 +13,14 @@ export const Appbar = (_props: Props) => {
         <nav
             className="sticky top-0 
             left-0
-            w-full h-14 
+            w-full h-14 sm:h-20 
             z-40 bg-neutralBg
             border-b border-gray-600
             bg-opacity-40 backdrop-filter backdrop-blur-xl 
             flex  justify-start items-center 
             pl-4 pr-4"
         >
-            <h4 className=" text-primaryBold font-extrabold text-xl sm:text-3xl p-0 m-0 capitalize">
+            <h4 className=" text-primaryBold font-extrabold text-2xl sm:text-4xl p-0 m-0 capitalize">
                 {activeRoute?.title || "Not Found"}
             </h4>
             <div className="ml-auto">

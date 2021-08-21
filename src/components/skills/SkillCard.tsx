@@ -16,7 +16,7 @@ export const SkillCard: FC<Props> = ({ skill }) => {
     }, [skill.svg]);
 
     return (
-        <Card>
+        <Card padding="medium">
             <div className="w-full h-auto flex flex-col items-center justify-around gap-6">
                 <div className="min-w-max w-3/4 sm:w-2/5 md:w-3/5 h-auto relative">
                     <div ref={svgWrapperRef}></div>

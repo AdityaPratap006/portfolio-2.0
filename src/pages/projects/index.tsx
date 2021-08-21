@@ -1,8 +1,14 @@
-import type { NextPage } from "next";
+import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import { ProjectCard } from "../../components/projects/ProjectCard";
+import { getAllProjects } from "../../data/projects";
+import { Project } from "../../models/project";
 
-const Projects: NextPage = () => {
+interface Props {
+    projects: Project[];
+}
+
+const Projects: NextPage<Props> = ({ projects }) => {
     return (
         <div className="w-full min-h-screen flex flex-col justify-start items-center pt-8 pb-20 sm:p-8">
             <Head>
@@ -15,12 +21,12 @@ const Projects: NextPage = () => {
             </Head>
             <div
                 className="w-full p-4 pb-20 sm:pb-4 grid grid-cols-1
-                md:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4
+                md:grid-cols-2 xl:grid-cols-3
                 gap-6
                 "
             >
-                {[1, 2, 3, 4, 5, 6].map((val) => (
-                    <ProjectCard key={val} />
+                {projects.map((project) => (
+                    <ProjectCard key={project.title} project={project} />
                 ))}
             </div>
         </div>
@@ -28,3 +34,13 @@ const Projects: NextPage = () => {
 };
 
 export default Projects;
+
+export const getStaticProps: GetStaticProps<Props> = async () => {
+    const projects = await getAllProjects();
+
+    return {
+        props: {
+            projects,
+        },
+    };
+};

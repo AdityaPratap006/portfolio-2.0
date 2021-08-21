@@ -1,11 +1,8 @@
 import { FC } from "react";
+import { SkillTag } from "../../models/project";
 
 interface Props {
-    skillTag: {
-        name: string;
-        bgColor: string;
-        textColor: string;
-    };
+    skillTag: SkillTag;
 }
 
 export const ProjectSkillTag: FC<Props> = ({ skillTag }) => {

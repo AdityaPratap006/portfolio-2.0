@@ -55,7 +55,7 @@ export const ProjectCard: FC<Props> = ({ project }) => {
             <div className="w-full relative">
                 <div
                     ref={carouselRef}
-                    className=" h-64 sm:h-56 w-full overflow-hidden"
+                    className="h-auto w-full overflow-hidden"
                 >
                     <div className="w-full h-full flex ">
                         {project.photos.map((photo, index) => (

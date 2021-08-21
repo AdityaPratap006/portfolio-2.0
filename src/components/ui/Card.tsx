@@ -17,7 +17,7 @@ export const Card: FC<Props> = ({ children, className, padding = "small" }) => {
     return (
         <div
             className={`${paddingClass} rounded-3xl
-             bg-neutralBgSofter bg-opacity-30 backdrop-filter backdrop-blur-md
+             bg-neutralBgSofter bg-opacity-40 backdrop-filter backdrop-blur-md
              flex flex-col justify-start items-center
              border border-gray-600 ${className}`}
         >

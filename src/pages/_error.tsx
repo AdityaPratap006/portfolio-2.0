@@ -5,7 +5,7 @@ import NextLink from "next/link";
 
 const NotFound404: NextPage = () => {
     return (
-        <div className="w-full h-screen flex flex-col justify-center items-center ">
+        <div className="w-full h-screen -mt-14 sm:-mt-20 flex flex-col justify-center items-center ">
             <Head>
                 <title>Aditya Pratap | 404</title>
                 <meta
@@ -21,23 +21,25 @@ const NotFound404: NextPage = () => {
                     bg-neutralBgSofter border-1/2 border-gray-600 bg-opacity-25 backdrop-filter backdrop-blur
                     flex flex-col justify-start items-center"
                 >
-                    <div className="relative w-full h-20 sm:h-28">
-                        <div className="absolute -top-40 sm:-top-56 left-1/2 transform -translate-x-1/2">
-                            <div className="relative h-72 w-72 sm:h-96 sm:w-96 ">
+                    <div className="relative w-full h-20">
+                        <div className="absolute -top-28 sm:-top-40 left-1/2 transform -translate-x-1/2">
+                            <div className="relative w-40 sm:w-60 md:w-64 lg:w-72 ">
                                 <NextImage
                                     src="/stickers/sweating-smile.png"
-                                    layout="fill"
-                                    objectFit="cover"
+                                    height={200}
+                                    width={200}
+                                    layout="responsive"
+                                    objectFit="contain"
                                 />
                             </div>
                         </div>
                     </div>
-                    <div className="sm:mt-4 w-full flex">
-                        <p className=" w-full text-onNeutralBg text-5xl text-center">{`Looks like you're lost :(`}</p>
+                    <div className="-mt-12 sm:mt-4 w-full flex">
+                        <p className=" w-full text-onNeutralBg text-3xl sm:text-4xl md:text-5xl text-center">{`Looks like you're lost :(`}</p>
                     </div>
-                    <button className="mt-10 bg-primary p-4 rounded-full">
+                    <button className="mt-8 bg-primary p-4 rounded-full">
                         <NextLink href="/">
-                            <span className=" text-neutralBg text-xl ">
+                            <span className=" text-neutralBg text-md sm:text-xl ">
                                 Go to Home
                             </span>
                         </NextLink>

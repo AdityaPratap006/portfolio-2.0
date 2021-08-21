@@ -46,10 +46,26 @@ const projects: Project[] = [
         ],
     },
     {
+        title: "SmartKart: A chatbot based e-commerce web app",
+        description: `A chat-bot based progressive web app (PWA) which assists you in purchasing items online.
+The chat-bot categorizes the products for you, (just like menu in a restaurant).`,
+        githubRepo: `https://github.com/AdityaPratap006/smart-shop`,
+        demoUrl: `https://smartkart.netlify.app/home`,
+        skillTagKeys: ["react", "javascript", "nodejs", "express", "mongodb"],
+        photos: [
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629583796/portfolio/projects/smartkart/Screenshot_2021-08-22_at_3.37.37_AM.png`,
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629583796/portfolio/projects/smartkart/Screenshot_2021-08-22_at_3.38.07_AM.png`,
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629583798/portfolio/projects/smartkart/Screenshot_2021-08-22_at_3.38.30_AM.png`,
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629583796/portfolio/projects/smartkart/Screenshot_2021-08-22_at_3.38.57_AM.png`,
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629583797/portfolio/projects/smartkart/Screenshot_2021-08-22_at_3.39.05_AM.png`,
+        ],
+    },
+    {
         title: "COVID Radar: A map-based app for covid19 hotspots detection",
         description: `This is a native mobile app which shows users the location of covid hotspots in India.
         Users can also view safe routes from point A to point B. They can also view stats and daily updates.`,
         githubRepo: `https://github.com/AdityaPratap006/covid_app_client`,
+        demoUrl: `http://www.youtube.com/watch?v=duEfP_mRZTU`,
         skillTagKeys: [
             "flutter",
             "dart",

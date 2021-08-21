@@ -4,6 +4,7 @@ export interface Project {
     skillTagKeys: string[];
     githubRepo: string;
     demoUrl?: string;
+    photos: string[];
 }
 
 export interface SkillTag {

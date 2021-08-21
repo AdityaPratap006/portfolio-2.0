@@ -17,6 +17,14 @@ const projects: Project[] = [
             "webrtc",
             "mongodb",
         ],
+        photos: [
+            "https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629557096/portfolio/projects/familia/Screenshot_2021-08-21_at_8.10.43_PM.png",
+            "https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629557105/portfolio/projects/familia/Screenshot_2021-08-21_at_8.09.01_PM.png",
+            "https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629557128/portfolio/projects/familia/Screenshot_2021-08-21_at_8.08.37_PM.png",
+            "https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629557111/portfolio/projects/familia/Screenshot_2021-08-21_at_8.08.09_PM.png",
+            "https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629557099/portfolio/projects/familia/Screenshot_2021-08-21_at_8.07.06_PM.png",
+            "https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629557119/portfolio/projects/familia/Screenshot_2021-08-21_at_8.06.06_PM.png",
+        ],
     },
 ];
 

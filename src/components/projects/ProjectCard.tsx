@@ -71,6 +71,7 @@ export const ProjectCard: FC<Props> = ({ project }) => {
                                     height={300}
                                     width={550}
                                     layout="responsive"
+                                    quality={60}
                                 />
                             </div>
                         ))}
@@ -83,7 +84,7 @@ export const ProjectCard: FC<Props> = ({ project }) => {
                     {project.description}
                 </p>
             </div>
-            <div className="w-full p-4 pt-0 flex flex-col justify-start items-start">
+            <div className="w-full p-4 pt-0 flex-1 flex flex-col justify-start items-start">
                 <span className="text-onNeutralBg text-lg">Tech Stack</span>
                 <div className="w-full pt-4 flex justify-start items-center flex-wrap gap-2">
                     {skillTags.map((skillTag) => {

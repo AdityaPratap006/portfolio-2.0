@@ -60,4 +60,19 @@ export const skillTagMap: SkillTagMap = {
         bgColor: "#336791",
         textColor: "#fff",
     },
+    "styled-components": {
+        name: "styled-components",
+        bgColor: "#ffac80",
+        textColor: "#000",
+    },
+    flutter: {
+        name: "flutter",
+        bgColor: "#03A9F4",
+        textColor: "#000",
+    },
+    dart: {
+        name: "dart",
+        bgColor: "#0075ba",
+        textColor: "#fff",
+    },
 };

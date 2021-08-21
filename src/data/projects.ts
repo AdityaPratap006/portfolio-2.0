@@ -10,6 +10,7 @@ const projects: Project[] = [
         demoUrl: `https://familia-web.netlify.app/`,
         skillTagKeys: [
             "react",
+            "styled-components",
             "typescript",
             "graphql",
             "nodejs",
@@ -24,6 +25,45 @@ const projects: Project[] = [
             "https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629557111/portfolio/projects/familia/Screenshot_2021-08-21_at_8.08.09_PM.png",
             "https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629557099/portfolio/projects/familia/Screenshot_2021-08-21_at_8.07.06_PM.png",
             "https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629557119/portfolio/projects/familia/Screenshot_2021-08-21_at_8.06.06_PM.png",
+        ],
+    },
+    {
+        title: "Meals To Go: A Restaurant Search Mobile App",
+        description: `A native mobile app where users can search for restaurants in any place around the world.
+            Users can view restaurants on a map and make reservations. Checkout and payment feature also there.`,
+        githubRepo: `https://github.com/AdityaPratap006/MealsToGo`,
+        skillTagKeys: [
+            "react-native",
+            "typescript",
+            "styled-components",
+            "firebase",
+        ],
+        photos: [
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629580653/portfolio/projects/meals_to_go/Screenshot_2021-08-22_at_2.35.38_AM.png`,
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629580610/portfolio/projects/meals_to_go/Screenshot_2021-08-22_at_2.35.46_AM.png`,
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629581080/portfolio/projects/meals_to_go/Screenshot_2021-08-22_at_2.54.33_AM.png`,
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629580609/portfolio/projects/meals_to_go/Screenshot_2021-08-22_at_2.35.19_AM.png`,
+        ],
+    },
+    {
+        title: "COVID Radar: A map-based app for covid19 hotspots detection",
+        description: `This is a native mobile app which shows users the location of covid hotspots in India.
+        Users can also view safe routes from point A to point B. They can also view stats and daily updates.`,
+        githubRepo: `https://github.com/AdityaPratap006/covid_app_client`,
+        skillTagKeys: [
+            "flutter",
+            "dart",
+            "nodejs",
+            "express",
+            "typescript",
+            "firebase",
+        ],
+        photos: [
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629582429/portfolio/projects/covid_radar/Screenshot_2021-08-22_at_3.12.54_AM.png`,
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629582430/portfolio/projects/covid_radar/Screenshot_2021-08-22_at_3.13.08_AM.png`,
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629582429/portfolio/projects/covid_radar/Screenshot_2021-08-22_at_3.13.39_AM.png`,
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629582430/portfolio/projects/covid_radar/Screenshot_2021-08-22_at_3.14.01_AM.png`,
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629582429/portfolio/projects/covid_radar/Screenshot_2021-08-22_at_3.14.21_AM.png`,
         ],
     },
 ];

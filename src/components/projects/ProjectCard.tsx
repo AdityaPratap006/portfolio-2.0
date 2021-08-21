@@ -1,3 +1,4 @@
+import { ExternalLinkIcon } from "@heroicons/react/outline";
 import { useEmblaCarousel } from "embla-carousel/react";
 import NextImage from "next/image";
 import { FC, useCallback, useEffect, useState } from "react";
@@ -94,6 +95,32 @@ export const ProjectCard: FC<Props> = ({ project }) => {
                         );
                     })}
                 </div>
+            </div>
+            <div className="p-4 w-full flex justify-end items-center gap-6">
+                <a
+                    href={project.githubRepo}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="w-10 h-10 p-1 bg-gray-100 rounded-2xl"
+                >
+                    <NextImage
+                        src={"/github.svg"}
+                        alt="Github Icon"
+                        width={64}
+                        height={64}
+                        layout="responsive"
+                    />
+                </a>
+                {project.demoUrl && (
+                    <a
+                        href={project.demoUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="w-10 h-10 p-1 bg-gray-100 rounded-2xl"
+                    >
+                        <ExternalLinkIcon className="text-black" />
+                    </a>
+                )}
             </div>
         </Card>
     );

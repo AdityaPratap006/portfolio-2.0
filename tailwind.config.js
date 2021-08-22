@@ -68,6 +68,7 @@ module.exports = {
             fontWeight: ["hover", "active", "group-hover"],
             zIndex: ["hover", "group-hover"],
             gradientColorStops: ["hover", "group-hover"],
+            borderColor: ["hover", "group-hover", "active", "focus"],
         },
     },
     plugins: [],

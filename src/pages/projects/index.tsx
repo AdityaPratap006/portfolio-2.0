@@ -12,7 +12,7 @@ const Projects: NextPage<Props> = ({ projects }) => {
     return (
         <div className="w-full min-h-screen flex flex-col justify-start items-center pt-8 pb-20 sm:p-8">
             <Head>
-                <title>Aditya Pratap</title>
+                <title>Aditya Pratap | Projects</title>
                 <meta
                     name="description"
                     content="Personal portfolio of Aditya Pratap | ASE @ Lowe's India | NIT Jamshedpur"

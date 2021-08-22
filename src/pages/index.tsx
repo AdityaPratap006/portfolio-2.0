@@ -7,7 +7,7 @@ const Home: NextPage = () => {
     return (
         <div className="w-full min-h-screen -mt-14 sm:-mt-20 flex flex-col justify-start items-center  pb-20 xl:pb-0">
             <Head>
-                <title>Aditya Pratap</title>
+                <title>Aditya Pratap | Home</title>
                 <meta
                     name="description"
                     content="Personal portfolio of Aditya Pratap | ASE @ Lowe's India | NIT Jamshedpur"
@@ -27,10 +27,10 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                         <div className="w-full p-4 mt-24 flex flex-col justify-start items-start gap-4 ">
-                            <h2 className="welcome-text name text-6xl">
+                            <h2 className="welcome-text name text-5xl sm:text-6xl">
                                 Hey There!
                             </h2>
-                            <h1 className="welcome-text name text-8xl mt-4">
+                            <h1 className="welcome-text name text-7xl sm:text-8xl mt-4">
                                 {`I'm Aditya`}
                             </h1>
                             <p className="mt-4 text-3xl text-onNeutralBg font-bold">

@@ -25,7 +25,7 @@ const Contact: NextPage = () => {
     };
 
     return (
-        <div className="w-full h-screen -mt-14 sm:-mt-20 flex flex-col justify-center items-center ">
+        <div className="w-full min-h-screen -mt-14 sm:-mt-20 flex flex-col justify-center items-center ">
             <Head>
                 <title>Aditya Pratap | Contact</title>
                 <meta
@@ -34,7 +34,7 @@ const Contact: NextPage = () => {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div className="h-full w-full flex justify-center items-center">
+            <div className="h-full w-full flex justify-center items-center pt-20 pb-20">
                 <Card className="w-11/12 sm:w-3/4 lg:w-1/2">
                     <div className="w-full flex flex-col justify-start items-center gap-4">
                         <h2 className="text-primaryBold welcome-text text-3xl">

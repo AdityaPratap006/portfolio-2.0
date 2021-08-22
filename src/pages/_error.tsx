@@ -7,7 +7,7 @@ const NotFound404: NextPage = () => {
     return (
         <div className="w-full h-screen -mt-14 sm:-mt-20 flex flex-col justify-center items-center ">
             <Head>
-                <title>Aditya Pratap | 404</title>
+                <title>Aditya Pratap | Error</title>
                 <meta
                     name="description"
                     content="Personal portfolio of Aditya Pratap | ASE @ Lowe's India | NIT Jamshedpur"

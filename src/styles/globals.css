@@ -105,6 +105,10 @@ body {
     @apply text-purple-400;
 }
 
+button:disabled {
+    @apply filter grayscale cursor-not-allowed;
+}
+
 @media (min-width: 640px) {
     .content-container {
         width: calc(100vw - theme("spacing.20"));

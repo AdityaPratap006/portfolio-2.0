@@ -39,9 +39,9 @@ const projects: Project[] = [
             "firebase",
         ],
         photos: [
-            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629580653/portfolio/projects/meals_to_go/Screenshot_2021-08-22_at_2.35.38_AM.png`,
-            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629580610/portfolio/projects/meals_to_go/Screenshot_2021-08-22_at_2.35.46_AM.png`,
-            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629581080/portfolio/projects/meals_to_go/Screenshot_2021-08-22_at_2.54.33_AM.png`,
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629628307/portfolio/projects/meals_to_go/Screenshot_2021-08-22_at_2.35.46_AM-min.png`,
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629628307/portfolio/projects/meals_to_go/Screenshot_2021-08-22_at_2.35.19_AM-min.png`,
+            `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629628306/portfolio/projects/meals_to_go/Screenshot_2021-08-22_at_2.35.38_AM-min.png`,
             `https://res.cloudinary.com/nit-jamshedpur/image/upload/v1629580609/portfolio/projects/meals_to_go/Screenshot_2021-08-22_at_2.35.19_AM.png`,
         ],
     },

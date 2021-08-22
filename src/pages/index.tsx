@@ -5,7 +5,7 @@ import { Card } from "../components/ui/Card";
 
 const Home: NextPage = () => {
     return (
-        <div className="w-full min-h-screen -mt-14 sm:-mt-20 flex flex-col justify-start items-center">
+        <div className="w-full min-h-screen -mt-14 sm:-mt-20 flex flex-col justify-start items-center  pb-20 xl:pb-0">
             <Head>
                 <title>Aditya Pratap</title>
                 <meta
